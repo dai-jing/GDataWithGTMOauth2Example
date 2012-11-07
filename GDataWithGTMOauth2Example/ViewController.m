@@ -28,8 +28,8 @@
     
     static NSString *const kKeychainItemName = @"Oauth2 Sample: Calendar";
     
-    NSString *kMyClientId = @"552003449120.apps.googleusercontent.com";
-    NSString *kMyClientSecret = @"stK7r3fdkyf7iku9IvkeQbMW";
+    NSString *kMyClientId = @"YOUR_CLIENT_ID";
+    NSString *kMyClientSecret = @"YOUR_CLIENT_SECRET";
     
     GTMOAuth2Authentication *auth = [GTMOAuth2ViewControllerTouch authForGoogleFromKeychainForName: kKeychainItemName clientID: kMyClientId clientSecret: kMyClientSecret];
     
